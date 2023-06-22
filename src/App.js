@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Navbar from "./components/Navbar";
 import Layout from "./components/Layout";
 import Home from "./components/Home";
 import Deposit from "./components/Deposit";
@@ -14,7 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Layout/>}>
             <Route index element={<Home />} />
             <Route path="home" element={<Home />} />
             <Route path="deposit" element={<Deposit />} />
