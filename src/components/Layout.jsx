@@ -8,9 +8,9 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <div className="container" style={customStyles}>
+      {/* <div className="container" style={customStyles}>
         <Outlet />
-      </div>
+      </div> */}
     </>
   );
 };
